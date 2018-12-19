@@ -18,7 +18,7 @@ var app = express();
 
 // Routes
 app.get('/', function (req, res) {
-  res.send('Hello World! [full deployment]');
+  res.send('Hello World! [full deployment on cloud and ground]');
 });
 
 // Create the server
