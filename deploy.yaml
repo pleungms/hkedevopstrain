@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hkedevopstrain
-        image: pleungcon.azurecr.io/pleungms/hkedevopstrain:$BUILD_ID
+        image: docker.io/pleungdev/hkedevopstrain:$BUILD_ID
         ports:
         - containerPort: 30080
 ---
