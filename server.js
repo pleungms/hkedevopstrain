@@ -18,7 +18,7 @@ var app = express();
 
 // Routes
 app.get('/', function (req, res) {
-  res.send('Hello World! [from initial]');
+  res.send('Hello World! [full deployment]');
 });
 
 // Create the server
