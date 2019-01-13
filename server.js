@@ -18,7 +18,7 @@ var app = express();
 
 // Routes
 app.get('/', function (req, res) {
-  res.send('Hello World! [testing with cf]');
+  res.send('Hello World! [testing with cf - updated]');
 });
 
 // Create the server
